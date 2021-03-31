@@ -1,6 +1,5 @@
 import 'dart:convert';
 import 'dart:io';
-import 'package:firebase_database/firebase_database.dart';
 import 'package:hi_news/data/status/content_response_status.dart';
 import 'package:hi_news/domain/news.dart';
 import 'package:hi_news/domain/news_filter.dart';
@@ -50,41 +49,6 @@ class Repository {
     return jsonDecode(response.body);
   }
 
-  Future<List<Review>> getReviews() async {
-    final databaseReference = FirebaseDatabase.instance.reference().child("reviews");
-    final snapshot = await databaseReference.once().timeout(const Duration(milliseconds: 4000), onTimeout: () {
-      throw Exception("No internet!");
-    });
-    if (snapshot.value == null) {
-      return <Review>[];
-    }
-    var rawReviews = snapshot.value as List;
-    final List<Review> newReviews = [];
-    int id = 0;
-    for (var rawReview in rawReviews) {
-      if (rawReview != null) {
-        newReviews.add(Review.fromJson(rawReview, id));
-      }
-      id++;
-    }
-    return newReviews;
-  }
-
-  Future<void> saveReview(Review review) async {
-    final ref = FirebaseDatabase.instance
-        .reference()
-        .child("reviews");
-
-    final snapshotData = await ref.once().timeout(const Duration(seconds: 3));
-
-    if (snapshotData.value == null) {
-      ref.set([review.toJson()]).timeout(const Duration(seconds: 3));
-    } else {
-      final rawReviews = (snapshotData.value as List).map((e) => e).toList();
-      rawReviews.add(review.toJson());
-      ref.set(rawReviews);
-    }
-  }
 
   Future<PageResponseStatus> _makeRequestNews(String requestUrl) async {
     final json = await getJson(requestUrl);
