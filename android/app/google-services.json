@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1005929343722",
+    "project_id": "hinews-78872",
+    "storage_bucket": "hinews-78872.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1005929343722:android:f54dbf680a3779e5e10593",
+        "android_client_info": {
+          "package_name": "com.uniqtrip.hi_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1005929343722-q9v2l2i3n5radf2bh613d6tas956l9nh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniqtrip.hi_news",
+            "certificate_hash": "0448f4752535ee00239f27b6074892ce9bdb8c40"
+          }
+        },
+        {
+          "client_id": "1005929343722-jr4tvpuh453jc1j4daeok80557n8334v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCswpy1QuYSA4TWPKEKEPjdpXbTUKA45UI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1005929343722-jr4tvpuh453jc1j4daeok80557n8334v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
