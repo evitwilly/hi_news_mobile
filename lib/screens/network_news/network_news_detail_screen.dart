@@ -149,7 +149,4 @@ class _NetworkNewsDetailScreen extends State<NetworkNewsDetailScreen> {
 
   Widget _buildContentIndicator() => Center(child: CircularProgressIndicator());
 
-
-
-
 }

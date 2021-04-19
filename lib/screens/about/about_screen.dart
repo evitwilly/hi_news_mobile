@@ -8,7 +8,6 @@ import 'package:hi_news/resources/strings.dart';
 import 'package:hi_news/widgets/change_theme_action.dart';
 import 'package:url_launcher/url_launcher.dart';
 
-
 class AboutScreen extends StatefulWidget {
 
   @override
@@ -41,7 +40,6 @@ class _AboutScreenState extends State<AboutScreen> {
             "p" : Style(
               fontSize: FontSize(20),
               margin: EdgeInsets.only(left: 3, right: 6, top: 10),
-
             )
           },
           onLinkTap: _launchURL,

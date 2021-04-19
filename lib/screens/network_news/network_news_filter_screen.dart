@@ -3,7 +3,6 @@ import 'package:flutter/widgets.dart';
 import 'package:hi_news/data/preferences.dart';
 import 'package:hi_news/data/static/authors.dart';
 import 'package:hi_news/data/static/themes.dart';
-import 'package:hi_news/domain/author.dart';
 import 'package:hi_news/domain/my_theme.dart';
 import 'package:hi_news/domain/news_filter.dart';
 import 'package:hi_news/helpers/utils.dart';
