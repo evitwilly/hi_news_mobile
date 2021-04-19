@@ -11,9 +11,14 @@ hi_news предоставлят ряд возможностей для свои
 3) Возможность сохранять новости для оффлайн просмотра
 4) Удобный и простой интерфейс
 
-## Экраны
+## Скриншоты
 
-Скоро будут
+|   |   |   |
+|---|---|---|
+|![screenshot #1](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_1.png) | ![screenshot #2](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_2.png) | ![screenshot #3](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_3.png)|
+|![screenshot #1](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_4.png) | ![screenshot #2](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_5.png) | ![screenshot #3](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_6.png)|
+|![screenshot #1](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_7.png) | ![screenshot #2](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_8.png) | ![screenshot #3](https://github.com/KiberneticWorm/hi_news_mobile/tree/master/screenshots/screen_9.png)|
+
 
 ## Немного о Backend приложухи
 
